@@ -1,9 +1,11 @@
 body {
   background-image: url(Logo.jpg);
+
   background-size: cover;
   background-position: center; /* centra la imagen */
   background-repeat: no-repeat; /* evita que se repita */
   background-attachment: fixed; /* mantiene img estatica*/
+
 }
 
 header {
@@ -12,10 +14,17 @@ header {
   top: 0;
   left: 0;
   z-index: 1000;
+
+  background-color: rgba(173, 3, 3, 0.349); /* fondo traslúcido */
+  backdrop-filter: blur(10px); /* efecto glass */
+
+  border-bottom: 1px solid rgba(224, 204, 21, 0.2);
+
   background-color: rgba(173, 3, 3, 0.315); /* fondo traslúcido */
   backdrop-filter: blur(10px); /* efecto glass */
 
   border-bottom: 1px solid rgba(21, 24, 224, 0.438);
+
   padding: 15px 0;
 }
 
@@ -43,3 +52,34 @@ nav ul li {
 nav ul li:hover {
   color: #0400d4;
 }
+
+
+footer {
+  background-color: #222;
+  color: #eee;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.footer-list li {
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  cursor: default;
+}
+
+.footer-list li:hover {
+  color: #4caf50; /* Color destacado al pasar el mouse */
+}
+
