@@ -1,6 +1,5 @@
 body {
-
-  background-image: url('Logo.jpg');
+  background-image: url("Logo.jpg");
 
   background-image: url(Logo.jpg);
 
@@ -20,6 +19,7 @@ header {
   background-color: rgba(173, 3, 3, 0.349); /* fondo traslúcido */
   backdrop-filter: blur(10px); /* efecto glass */
 
+
   border-bottom: 1px solid rgba(21, 24, 224, 0.438);
 
 
@@ -29,8 +29,8 @@ header {
   background-color: rgba(173, 3, 3, 0.315); /* fondo traslúcido */
   backdrop-filter: blur(10px); /* efecto glass */
 
+  border-bottom: 1px solid rgba(21, 24, 224, 0.43;
   border-bottom: 1px solid rgba(21, 24, 224, 0.438);
-
 
 
   padding: 15px 0;
@@ -61,9 +61,11 @@ nav ul li:hover {
   color: #0400d4;
 }
 
+
 h1 {
   text-align: center;
 }
+
 
 .contenedor {
   display: grid;
@@ -73,6 +75,7 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 
 .movie {
   background: rgba(0, 0, 0, 0.6);
@@ -169,4 +172,6 @@ footer {
 .footer-list li:hover {
   color: #4caf50; /* Color destacado al pasar el mouse */
 }
+
+
 
