@@ -9,18 +9,19 @@ body {
   background-repeat: no-repeat; /* evita que se repita */
   background-attachment: fixed; /* mantiene img estatica*/
 
-
 }
-
 header {
   width: 100%;
-  position: fixed;
+
   top: 0;
   left: 0;
   z-index: 1000;
 
   background-color: rgba(173, 3, 3, 0.349); /* fondo traslúcido */
   backdrop-filter: blur(10px); /* efecto glass */
+
+  border-bottom: 1px solid rgba(21, 24, 224, 0.438);
+
 
   border-bottom: 1px solid rgba(224, 204, 21, 0.2);
 
@@ -29,6 +30,7 @@ header {
   backdrop-filter: blur(10px); /* efecto glass */
 
   border-bottom: 1px solid rgba(21, 24, 224, 0.438);
+
 
 
   padding: 15px 0;
@@ -59,89 +61,92 @@ nav ul li:hover {
   color: #0400d4;
 }
 
+h1 {
+  text-align: center;
+}
 
 .contenedor {
   display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-    .movie {
-      background: rgba(0, 0, 0, 0.6);
-      border-radius: 10px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: row;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    }
-  
-    .movie img {
-      width: 40%;
-      object-fit: cover;
-      border-right: 2px solid #444;
-    }
-  
-    .descripcion {
-      padding: 15px;
-      width: 60%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-  
-    .descripcion h2 {
-      margin-top: 0;
-      color: #ffcc00;
-      text-shadow: 1px 1px 2px #000;
-    }
-  
-    .descripcion a {
-      color: #00ccff;
-      text-decoration: none;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-  
-    .descripcion a:hover {
-      text-decoration: underline;
-    }
-  
-    .descripcion p {
-      margin: 5px 0;
-      line-height: 1.4;
-    }
-  
-    .descripcion ul {
-      padding-left: 20px;
-      margin: 5px 0;
-    }
-  
-    .descripcion button {
-      align-self: flex-start;
-      background-color: #ffcc00;
-      border: none;
-      padding: 10px 20px;
-      font-weight: bold;
-      color: #000;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-  
-    .descripcion button:hover {
-      background-color: #e6b800;
-    }
+.movie {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
 
+.movie img {
+  width: 40%;
+  object-fit: cover;
+  border-right: 2px solid #444;
+}
+
+.descripcion {
+  padding: 15px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.descripcion h2 {
+  margin-top: 0;
+  color: #ffcc00;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.descripcion a {
+  color: #00ccff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.descripcion a:hover {
+  text-decoration: underline;
+}
+
+.descripcion p {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+.descripcion ul {
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.descripcion button {
+  align-self: flex-start;
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.descripcion button:hover {
+  background-color: #e6b800;
+}
 
 footer {
   background-color: #222;
   color: #eee;
   padding: 20px 0;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -164,5 +169,4 @@ footer {
 .footer-list li:hover {
   color: #4caf50; /* Color destacado al pasar el mouse */
 }
-
 
