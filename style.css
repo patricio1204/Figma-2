@@ -35,3 +35,78 @@ nav ul li {
 nav ul li:hover {
   color: #0400d4;
 }
+
+.contenedor {
+  display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+    .movie {
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+  
+    .movie img {
+      width: 40%;
+      object-fit: cover;
+      border-right: 2px solid #444;
+    }
+  
+    .descripcion {
+      padding: 15px;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .descripcion h2 {
+      margin-top: 0;
+      color: #ffcc00;
+      text-shadow: 1px 1px 2px #000;
+    }
+  
+    .descripcion a {
+      color: #00ccff;
+      text-decoration: none;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .descripcion a:hover {
+      text-decoration: underline;
+    }
+  
+    .descripcion p {
+      margin: 5px 0;
+      line-height: 1.4;
+    }
+  
+    .descripcion ul {
+      padding-left: 20px;
+      margin: 5px 0;
+    }
+  
+    .descripcion button {
+      align-self: flex-start;
+      background-color: #ffcc00;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      color: #000;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  
+    .descripcion button:hover {
+      background-color: #e6b800;
+    }
