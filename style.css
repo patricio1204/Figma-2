@@ -113,9 +113,9 @@ h1 {
   margin-bottom: 10px;
 }
 
-.reparto {
-  color :#00ccff;
-}
+
+  
+
 .descripcion a:hover {
   text-decoration: underline;
 }
@@ -130,6 +130,7 @@ h1 {
 .descripcion ul {
   padding-left: 20px;
   margin: 5px 0;
+  color: #00ccff;
 }
 
 .descripcion button {
