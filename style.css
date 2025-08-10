@@ -120,6 +120,7 @@ h1 {
 .descripcion p {
   margin: 5px 0;
   line-height: 1.4;
+  color : rgba(7, 26, 227, 0.651)
 }
 
 .descripcion ul {
