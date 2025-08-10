@@ -1,0 +1,37 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(173, 3, 3, 0.349); /* fondo traslúcido */
+  backdrop-filter: blur(10px); /* efecto glass */
+
+  border-bottom: 1px solid rgba(224, 204, 21, 0.2);
+  padding: 15px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  color: rgba(238, 255, 5, 0.651);
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+  color: #0400d4;
+}
