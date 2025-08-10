@@ -1,5 +1,9 @@
 body {
   background-image: url(Logo.jpg);
+  background-size: cover;
+  background-position: center; /* centra la imagen */
+  background-repeat: no-repeat; /* evita que se repita */
+  background-attachment: fixed; /* mantiene img estatica*/
 }
 
 header {
@@ -8,10 +12,10 @@ header {
   top: 0;
   left: 0;
   z-index: 1000;
-  background-color: rgba(173, 3, 3, 0.349); /* fondo traslúcido */
+  background-color: rgba(173, 3, 3, 0.315); /* fondo traslúcido */
   backdrop-filter: blur(10px); /* efecto glass */
 
-  border-bottom: 1px solid rgba(224, 204, 21, 0.2);
+  border-bottom: 1px solid rgba(21, 24, 224, 0.438);
   padding: 15px 0;
 }
 
